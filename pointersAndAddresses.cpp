@@ -9,5 +9,9 @@ int main(){
   cout << "Variable: " << my_val;
   cout << " Address: " << &my_val << "\n";
 
+  cout << "Pointer: " << ptr_my_val
+       << " Address: " << &ptr_my_val
+       << " Dereference: " << *ptr_my_val << "\n";
+
   return 0;
 }
