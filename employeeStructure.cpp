@@ -39,6 +39,8 @@ int main(){
   Tikou.phone_number = "07864331232";
   Tikou.salary = "£40,000";
   Tikou.manager = *ptr_manager;
+
+  delete ptr_manager;
   
   return 0;
 }
